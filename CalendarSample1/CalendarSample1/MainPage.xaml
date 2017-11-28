@@ -5,9 +5,26 @@
              x:Class="CalendarSample1.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="label" 
+                   Text="ToP"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+            <Button Text="ボディー統計"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+            <Button Text="ﾄレーニング履歴"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+            <Button Text="推定RM"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+            <Button Text="ボディー統計"
+                    Clicked="Button_Clicked"
+                    VerticalOptions=""
+                   HorizontalOptions="left" />        
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
