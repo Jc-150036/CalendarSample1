@@ -32,12 +32,12 @@
             
             <Button Text="記録"
                     Clicked="Button_Clicked"
-                    Grid.Row="5"
+                    Grid.Row="4"
                     Grid.Column="1" />
             
             <Button Text="ストップウォッチ・タイマー"
                     Clicked="Button_Clicked"
-                    Grid.Row="6"
+                    Grid.Row="4"
                     Grid.Column="1" />
     </StackLayout>
     
