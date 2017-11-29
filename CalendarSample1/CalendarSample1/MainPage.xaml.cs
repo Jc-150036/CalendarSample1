@@ -13,5 +13,10 @@ namespace CalendarSample1
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

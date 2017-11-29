@@ -10,32 +10,32 @@
                    Grid.Row="0"
                    Grid.Column="1" />
             
-            <Button1 Text="ボディー統計"
+            <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
                     Grid.Row="1"
                     Grid.Column="1" />
             
-            <Button2 Text="ﾄレーニング履歴"
+            <Button Text="ﾄレーニング履歴"
                     Clicked="Button_Clicked"
                     Grid.Row="2"
                     Grid.Column="1" />
             
-            <Button3 Text="推定RM"
+            <Button Text="推定RM"
                     Clicked="Button_Clicked"
                     Grid.Row="3"
                     Grid.Column="1" />
             
-            <Button4 Text="ToP"
+            <Button Text="ToP"
                     Clicked="Button_Clicked"
                     Grid.Row="4"
                     Grid.Column="1" />
             
-            <Button5 Text="記録"
+            <Button Text="記録"
                     Clicked="Button_Clicked"
                     Grid.Row="5"
                     Grid.Column="1" />
             
-            <Button6 Text="ストップウォッチ・タイマー"
+            <Button Text="ストップウォッチ・タイマー"
                     Clicked="Button_Clicked"
                     Grid.Row="6"
                     Grid.Column="1" />
