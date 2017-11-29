@@ -24,7 +24,7 @@
             </Grid.ColumnDefinitions>
             <Label x:Name="label" 
                    Text="ToP"
-                   Grid.="center"
+                   HorizontalOptions="center"
                    Grid.Row="1"
                    Grid.Column="1" />
 
