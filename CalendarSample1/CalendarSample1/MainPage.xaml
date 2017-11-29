@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:CalendarSample1"
              x:Class="CalendarSample1.MainPage">
     
-        <StackLayout>
+        <StackLayout Orientation="Vertical">
             <Label x:Name="label" 
                    Text="ToP"
                    VerticalOptions="Center"
@@ -13,7 +13,26 @@
                     Clicked="Button_Clicked"
                     VerticalOptions="Center"
                    HorizontalOptions="Center" />
-            
-        </StackLayout>
+        <Button2 Text="ﾄレーニング履歴"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+        <Button3 Text="推定RM"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+        <Button4 Text="ToP"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+        <Button5 Text="記録"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+        <Button6 Text="ストップウォッチ・タイマー"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+    </StackLayout>
     
 </ContentPage>
