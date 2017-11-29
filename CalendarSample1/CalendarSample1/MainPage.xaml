@@ -21,10 +21,18 @@
                     Clicked="Button_Clicked"
                     VerticalOptions="Center"
                    HorizontalOptions="Center" />
-            <Button Text="ボディー統計"
+            <Button Text="ToP"
                     Clicked="Button_Clicked"
-                    VerticalOptions=""
-                   HorizontalOptions="left" />        
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+            <Button Text="記録"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+            <Button Text="ストップウォッチ・タイマー"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                   HorizontalOptions="Center" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

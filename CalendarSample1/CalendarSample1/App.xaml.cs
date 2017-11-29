@@ -16,19 +16,9 @@ namespace CalendarSample1
             MainPage = new CalendarSample1.MainPage();
         }
 
-        protected override void OnStart()
+        private void Button_Clicked(EventArgs e, object sender);
         {
-            // Handle when your app starts
+            
         }
-
-        protected override void OnSleep()
-        {
-            // Handle when your app sleeps
-        }
-
-        protected override void OnResume()
-        {
-            // Handle when your app resumes
-        }
-    }
+            
 }
