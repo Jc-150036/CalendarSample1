@@ -13,26 +13,7 @@
                     Clicked="Button_Clicked"
                     VerticalOptions="Center"
                    HorizontalOptions="Center" />
-            <Button2 Text="ﾄレーニング履歴"
-                    Clicked="Button_Clicked"
-                    VerticalOptions="Center"
-                   HorizontalOptions="Center" />
-            <Button3 Text="推定RM"
-                    Clicked="Button_Clicked"
-                    VerticalOptions="Center"
-                   HorizontalOptions="Center" />
-            <Button4 Text="ToP"
-                    Clicked="Button_Clicked"
-                    VerticalOptions="Center"
-                   HorizontalOptions="Center" />
-            <Button5 Text="記録"
-                    Clicked="Button_Clicked"
-                    VerticalOptions="Center"
-                   HorizontalOptions="Center" />
-            <Button6 Text="ストップウォッチ・タイマー"
-                    Clicked="Button_Clicked"
-                    VerticalOptions="Center"
-                   HorizontalOptions="Center" />
+            
         </StackLayout>
     
 </ContentPage>
