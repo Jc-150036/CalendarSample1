@@ -16,11 +16,11 @@
             </Grid.RowDefinitions>
             <!-- 列の定義 -->
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"/>
-                <ColumnDefinition Width="300"/>
-                <ColumnDefinition Width="150"/>
-                <ColumnDefinition Width="200"/>
                 <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="220"/>
             </Grid.ColumnDefinitions>
             <Label x:Name="label" 
                    Text="ToP"
