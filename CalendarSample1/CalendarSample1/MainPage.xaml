@@ -5,40 +5,58 @@
              x:Class="CalendarSample1.MainPage">
     
         <StackLayout Orientation="Vertical">
+        <Grid>
+            <!-- 行の定義 -->
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="100"/>
+                <RowDefinition  Height="100"/>
+                <RowDefinition  Height="100"/>
+                <RowDefinition  Height="100"/>
+                <RowDefinition  Height="100"/>
+            </Grid.RowDefinitions>
+            <!-- 列の定義 -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
             <Label x:Name="label" 
                    Text="ToP"
                    Grid.Row="0"
                    Grid.Column="1" />
-            
+
             <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
                     Grid.Row="1"
                     Grid.Column="1" />
-            
+
             <Button Text="ﾄレーニング履歴"
                     Clicked="Button_Clicked"
                     Grid.Row="2"
                     Grid.Column="1" />
-            
+
             <Button Text="推定RM"
                     Clicked="Button_Clicked"
                     Grid.Row="3"
                     Grid.Column="1" />
-            
+
             <Button Text="ToP"
                     Clicked="Button_Clicked"
                     Grid.Row="4"
                     Grid.Column="1" />
-            
+
             <Button Text="記録"
                     Clicked="Button_Clicked"
                     Grid.Row="4"
                     Grid.Column="1" />
-            
+
             <Button Text="ストップウォッチ・タイマー"
                     Clicked="Button_Clicked"
                     Grid.Row="4"
                     Grid.Column="1" />
+        </Grid>
     </StackLayout>
     
 </ContentPage>
