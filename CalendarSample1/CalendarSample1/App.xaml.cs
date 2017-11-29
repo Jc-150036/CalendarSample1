@@ -16,9 +16,7 @@ namespace CalendarSample1
             MainPage = new CalendarSample1.MainPage();
         }
 
-        private void Button_Clicked(EventArgs e, object sender);
-        {
-            
-        }
-            
+
+
+    }
 }
