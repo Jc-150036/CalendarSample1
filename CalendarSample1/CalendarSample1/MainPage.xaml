@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:CalendarSample1"
              x:Class="CalendarSample1.MainPage">
-    <ContentPage.Content>
+    
         <StackLayout>
             <Label x:Name="label" 
                    Text="ToP"
@@ -34,5 +34,5 @@
                     VerticalOptions="Center"
                    HorizontalOptions="Center" />
         </StackLayout>
-    </ContentPage.Content>
+    
 </ContentPage>
