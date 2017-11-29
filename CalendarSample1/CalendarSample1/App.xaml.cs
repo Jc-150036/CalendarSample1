@@ -13,9 +13,12 @@ namespace CalendarSample1
         {
             InitializeComponent();
 
-            MainPage = new CalendarSample1.MainPage();
+            
         }
-
+        private void Button_Clicked(object sender,EventArgs e)
+        {
+           
+        }
 
 
     }
