@@ -8,11 +8,11 @@
         <Grid>
             <!-- 行の定義 -->
             <Grid.RowDefinitions>
-                <RowDefinition  Height="100"/>
-                <RowDefinition  Height="100"/>
-                <RowDefinition  Height="100"/>
-                <RowDefinition  Height="100"/>
-                <RowDefinition  Height="100"/>
+                <RowDefinition  Height="200"/>
+                <RowDefinition  Height="200"/>
+                <RowDefinition  Height="200"/>
+                <RowDefinition  Height="200"/>
+                <RowDefinition  Height="200"/>
             </Grid.RowDefinitions>
             <!-- 列の定義 -->
             <Grid.ColumnDefinitions>
