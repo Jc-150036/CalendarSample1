@@ -12,7 +12,7 @@
                 <RowDefinition  Height="200"/>
                 <RowDefinition  Height="200"/>
                 <RowDefinition  Height="200"/>
-                <RowDefinition  Height="210"/>
+                <RowDefinition  Height="230"/>
             </Grid.RowDefinitions>
             <!-- 列の定義 -->
             <Grid.ColumnDefinitions>
@@ -24,6 +24,7 @@
             </Grid.ColumnDefinitions>
             <Label x:Name="label" 
                    Text="ToP"
+                   Grid.="center"
                    Grid.Row="1"
                    Grid.Column="1" />
 
