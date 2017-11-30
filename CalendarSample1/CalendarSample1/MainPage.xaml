@@ -5,6 +5,7 @@
              x:Class="CalendarSample1.MainPage">
     
         <StackLayout Orientation="Vertical">
+            
         <Grid>
             <!-- 行の定義 -->
             <Grid.RowDefinitions>
