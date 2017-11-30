@@ -5,9 +5,10 @@
              x:Class="CalendarSample1.MainPage">
     
         <StackLayout Orientation="Vertical">
-
+            
         <Grid>
-
+            
+            <!-- 行の定義 -->
             <Grid.RowDefinitions>
                 <RowDefinition  Height="230"/>
                 <RowDefinition  Height="200"/>
@@ -16,7 +17,7 @@
                 <RowDefinition  Height="230"/>
                 
             </Grid.RowDefinitions>
-            
+            <!-- 列の定義 -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250"/>
                 <ColumnDefinition Width="250"/>
