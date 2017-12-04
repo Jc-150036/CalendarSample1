@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:CalendarSample1"
              x:Class="CalendarSample1.MainPage">
     
-        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Vertical">
             
         <Grid>
             
