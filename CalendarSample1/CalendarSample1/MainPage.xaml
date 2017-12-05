@@ -31,7 +31,7 @@
             <Label x:Name="label" 
                    Text="ToP"
                    HorizontalOptions="Center"
-                   Grid.Row="1"
+                   Grid.Row="0"
                    Grid.Column="1" 
                    FontSize="40"/>
 
@@ -39,42 +39,36 @@
                     Clicked="Button_Clicked"
                     Grid.Row="1"
                     Grid.Column="1"
-                    Grid.Column="1" 
                    FontSize="40"/>
 
             <Button Text="ﾄレーニング履歴"
                     Clicked="Button_Clicked"
-                    Grid.Row="2"
-                    Grid.Column="1"
-                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Grid.Column="2"
                    FontSize="40"/>
 
             <Button Text="推定RM"
                     Clicked="Button_Clicked"
-                    Grid.Row="3"
-                    Grid.Column="1"
-                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Grid.Column="4" 
                    FontSize="40"/>
 
             <Button Text="ToP"
                     Clicked="Button_Clicked"
-                    Grid.Row="4"
-                    Grid.Column="0"
-                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Grid.Column="5"
                    FontSize="40"/>
 
             <Button Text="記録"
                     Clicked="Button_Clicked"
-                    Grid.Row="4"
-                    Grid.Column="1"
-                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Grid.Column="5"
                    FontSize="40"/>
 
             <Button Text="ストップウォッチ・タイマー"
                     Clicked="Button_Clicked"
-                    Grid.Row="4"
-                    Grid.Column="2"
-                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Grid.Column="5"
                    FontSize="40"/>
         </Grid>
     </StackLayout>
