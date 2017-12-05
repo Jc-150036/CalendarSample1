@@ -4,7 +4,8 @@
              xmlns:local="clr-namespace:CalendarSample1"
              x:Class="CalendarSample1.MainPage">
     
-            <StackLayout Orientation="Vertical">
+
+    <StackLayout Orientation="Vertical">
             
         <Grid>
             
@@ -31,37 +32,50 @@
                    Text="ToP"
                    HorizontalOptions="Center"
                    Grid.Row="1"
-                   Grid.Column="1" />
+                   Grid.Column="1" 
+                   FontSize="40"/>
 
             <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
                     Grid.Row="1"
-                    Grid.Column="1" />
+                    Grid.Column="1"
+                    Grid.Column="1" 
+                   FontSize="40"/>
 
             <Button Text="ﾄレーニング履歴"
                     Clicked="Button_Clicked"
                     Grid.Row="2"
-                    Grid.Column="1" />
+                    Grid.Column="1"
+                    Grid.Column="1" 
+                   FontSize="40"/>
 
             <Button Text="推定RM"
                     Clicked="Button_Clicked"
                     Grid.Row="3"
-                    Grid.Column="1" />
+                    Grid.Column="1"
+                    Grid.Column="1" 
+                   FontSize="40"/>
 
             <Button Text="ToP"
                     Clicked="Button_Clicked"
                     Grid.Row="4"
-                    Grid.Column="0" />
+                    Grid.Column="0"
+                    Grid.Column="1" 
+                   FontSize="40"/>
 
             <Button Text="記録"
                     Clicked="Button_Clicked"
                     Grid.Row="4"
-                    Grid.Column="1" />
+                    Grid.Column="1"
+                    Grid.Column="1" 
+                   FontSize="40"/>
 
             <Button Text="ストップウォッチ・タイマー"
                     Clicked="Button_Clicked"
                     Grid.Row="4"
-                    Grid.Column="2" />
+                    Grid.Column="2"
+                    Grid.Column="1" 
+                   FontSize="40"/>
         </Grid>
     </StackLayout>
     
