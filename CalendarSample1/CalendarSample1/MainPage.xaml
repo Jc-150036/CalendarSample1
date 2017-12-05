@@ -7,27 +7,28 @@
 
     <StackLayout Orientation="Vertical"
                  Spacing="50"
-                 BackgroundColor="Gray">
+                 BackgroundColor="Silver">
         <Label Text=" " />
 
 
         <Label x:Name="label" 
                    Text="ToP"
-                   FontSize="40"/>
+                   FontSize="40"
+                   TextColor="Black"/>
 
             <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
                    FontSize="40"/>
         
         <BoxView BackgroundColor="Blue"
-                 HeightRequest="5"/>
+                 HeightRequest="1"/>
 
         <Button Text="ﾄレーニング履歴"
                     Clicked="Button_Clicked"
                     FontSize="40"/>
         
         <BoxView BackgroundColor="Blue"
-                 HeightRequest="10"/>
+                 HeightRequest="0.5"/>
         
         <Button Text="推定RM"
                     Clicked="Button_Clicked"
