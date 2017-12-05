@@ -6,71 +6,44 @@
     
 
     <StackLayout Orientation="Vertical">
-            
-        <Grid>
-            
-            <!-- 行の定義 -->
-            <Grid.RowDefinitions>
-                <RowDefinition  Height="230"/>
-                <RowDefinition  Height="200"/>
-                <RowDefinition  Height="200"/>
-                <RowDefinition  Height="200"/>
-                <RowDefinition  Height="210"/>
-                
-                
-            </Grid.RowDefinitions>
-            <!-- 列の定義 -->
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="250"/>
-                <ColumnDefinition Width="250"/>
-                <ColumnDefinition Width="180"/>
-                <ColumnDefinition Width="200"/>
-                <ColumnDefinition Width="210"/>
-                
-            </Grid.ColumnDefinitions>
-            <Label x:Name="label" 
+        <Label Text=" " />
+
+
+        <Label x:Name="label" 
                    Text="ToP"
-                   HorizontalOptions="Center"
-                   Grid.Row="0"
-                   Grid.Column="1" 
                    FontSize="40"/>
 
             <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
-                    Grid.Row="1"
-                    Grid.Column="1"
+                    
                    FontSize="40"/>
 
             <Button Text="ﾄレーニング履歴"
                     Clicked="Button_Clicked"
-                    Grid.Row="1"
-                    Grid.Column="2"
+                    
                    FontSize="40"/>
 
             <Button Text="推定RM"
                     Clicked="Button_Clicked"
-                    Grid.Row="1"
-                    Grid.Column="4" 
+                     
                    FontSize="40"/>
+        <StackLayout Orientation="Horizontal" >
 
             <Button Text="ToP"
                     Clicked="Button_Clicked"
-                    Grid.Row="1"
-                    Grid.Column="5"
+                    
                    FontSize="40"/>
 
             <Button Text="記録"
                     Clicked="Button_Clicked"
-                    Grid.Row="1"
-                    Grid.Column="5"
+                    
                    FontSize="40"/>
 
             <Button Text="ストップウォッチ・タイマー"
                     Clicked="Button_Clicked"
-                    Grid.Row="1"
-                    Grid.Column="5"
+                    
                    FontSize="40"/>
-        </Grid>
+        </StackLayout>
     </StackLayout>
     
 </ContentPage>
