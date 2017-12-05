@@ -5,7 +5,8 @@
              x:Class="CalendarSample1.MainPage">
     
 
-    <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Vertical"
+                 Spacing="50">
         <Label Text=" " />
 
 
@@ -15,24 +16,23 @@
 
             <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
-                    
+                   FontSize="40"/>
+        
+        <BoxView BackgroundColor="Blue"/>
+
+        <Button Text="ﾄレーニング履歴"
+                    Clicked="Button_Clicked"
+                    FontSize="40"/>
+        <BoxView BackgroundColor="Blue"/>
+        <Button Text="推定RM"
+                    Clicked="Button_Clicked"
                    FontSize="40"/>
 
-            <Button Text="ﾄレーニング履歴"
-                    Clicked="Button_Clicked"
-                    
-                   FontSize="40"/>
-
-            <Button Text="推定RM"
-                    Clicked="Button_Clicked"
-                     
-                   FontSize="40"/>
         <StackLayout Orientation="Horizontal" >
 
             <Button Text="ToP"
                     Clicked="Button_Clicked"
-                    
-                   FontSize="40"/>
+                    FontSize="40"/>
 
             <Button Text="記録"
                     Clicked="Button_Clicked"
