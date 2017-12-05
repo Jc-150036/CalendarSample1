@@ -7,7 +7,7 @@
 
     <StackLayout Orientation="Vertical"
                  Spacing="50"
-                 BackgroundColor="Black">
+                 >
         <Label Text=" " />
 
 
@@ -19,7 +19,8 @@
             <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
                    FontSize="40"
-                    TextColor="Blue"/>
+                    TextColor="Blue"
+                    BackgroundColor="Black"/>
         
         <BoxView BackgroundColor="Blue"
                  HeightRequest="0.5"/>
@@ -35,7 +36,8 @@
         <Button Text="推定RM"
                     Clicked="Button_Clicked"
                    FontSize="40"
-                TextColor="Blue"/>
+                TextColor="Blue"
+                BackgroundColor="Black"/>
 
         <StackLayout Orientation="Horizontal" >
 
