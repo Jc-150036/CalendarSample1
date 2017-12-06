@@ -22,7 +22,7 @@
                     FontSize="40"
                     TextColor="Orange"
                     BackgroundColor="Black"
-                    HeightRequest="100"/>
+                    HeightRequest="200"/>
         
         
         <BoxView BackgroundColor="White"
@@ -33,7 +33,7 @@
                     FontSize="40"
                     TextColor="Orange"
                     BackgroundColor="Black"
-                HeightRequest="110"/>
+                HeightRequest="180"/>
         
         <BoxView BackgroundColor="White"
                  HeightRequest="0.5"/>
@@ -43,7 +43,7 @@
                    FontSize="40"
                 TextColor="Orange"
                 BackgroundColor="Black"
-                HeightRequest="120"/>
+                HeightRequest="160"/>
 
         <StackLayout Orientation="Horizontal" >
 
