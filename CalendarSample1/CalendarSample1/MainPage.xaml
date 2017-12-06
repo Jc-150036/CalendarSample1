@@ -22,10 +22,10 @@
                     FontSize="40"
                     TextColor="Orange"
                     BackgroundColor="Black"
-                    HeightRequest="20"/>
+                    HeightRequest="80"/>
         
         
-        <BoxView BackgroundColor="Blue"
+        <BoxView BackgroundColor="White"
                  HeightRequest="0.5"/>
 
         <Button Text="ﾄレーニング履歴"
@@ -33,9 +33,9 @@
                     FontSize="40"
                     TextColor="Orange"
                     BackgroundColor="Black"
-                HeightRequest="10"/>
+                HeightRequest="60"/>
         
-        <BoxView BackgroundColor="Blue"
+        <BoxView BackgroundColor="White"
                  HeightRequest="0.5"/>
         
         <Button Text="推定RM"
@@ -43,7 +43,7 @@
                    FontSize="40"
                 TextColor="Orange"
                 BackgroundColor="Black"
-                HeightRequest="5"/>
+                HeightRequest="40"/>
 
         <StackLayout Orientation="Horizontal" >
 
