@@ -19,9 +19,10 @@
 
             <Button Text="ボディー統計"
                     Clicked="Button_Clicked"
-                   FontSize="40"
+                    FontSize="40"
                     TextColor="Orange"
-                    BackgroundColor="Black"/>
+                    BackgroundColor="Black"
+                    HeightRequest="20"/>
         
         
         <BoxView BackgroundColor="Blue"
@@ -30,8 +31,9 @@
         <Button Text="ﾄレーニング履歴"
                     Clicked="Button_Clicked"
                     FontSize="40"
-                TextColor="Orange"
-                BackgroundColor="Black"/>
+                    TextColor="Orange"
+                    BackgroundColor="Black"
+                HeightRequest="10"/>
         
         <BoxView BackgroundColor="Blue"
                  HeightRequest="0.5"/>
@@ -40,7 +42,8 @@
                     Clicked="Button_Clicked"
                    FontSize="40"
                 TextColor="Orange"
-                BackgroundColor="Black"/>
+                BackgroundColor="Black"
+                HeightRequest="5"/>
 
         <StackLayout Orientation="Horizontal" >
 
